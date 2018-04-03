@@ -1,0 +1,92 @@
+@font-face 
+{
+font-family: "Open sans"
+src:url("/OpenSans-Regular.ttf");
+
+}
+
+
+body {
+
+   font-family: Open Sans,Arial;
+
+color: #454545;
+
+font-size: 16px;
+
+margin: 2em auto;
+
+    margin-top: 2em;
+    margin-right: auto;
+    margin-bottom: 2em;
+    margin-left: auto;
+
+max-width: 800px;
+
+padding: 1em;
+
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+
+line-height: 1.4;
+
+text-align: justify;
+}
+
+
+.fancyPositioning::after
+ {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+div.fancyPositioning div.picture-left 
+{
+    float: left;
+    width: 40%;
+    overflow: hidden;
+    margin-right: 1em;
+
+}
+
+div.fancyPositioning div.tleft 
+{
+    float: left;
+    width: 55%;
+}
+
+
+
+div.fancyPositioning::after 
+{
+    display: block;
+    content: "";
+    clear: both;
+
+
+}
+
+.small
+{
+
+	font-size: 4em;
+}
+
+.bleu
+{
+color: blue;
+
+}
+
+.rouge
+{
+color: #c0392b;
+
+font-weight: 600;
+
+text-decoration: underline;
+
+}
